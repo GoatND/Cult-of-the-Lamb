@@ -1,12 +1,5 @@
 import SeleniumInfo
 import time
-import os
-from twilio.rest import Client
-
-account_sid = ('AC2e7c5fc40b2cff588e3dca22230e2f19')
-auth_token = ('d6e65da70a3db07917776b9d1b60a7e7')
-twilio_phone = ('+16204903564')
-client = Client(account_sid, auth_token)
 
 browser = SeleniumInfo.browser
 
